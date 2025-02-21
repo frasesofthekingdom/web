@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frases of the Kingdom</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="imagenes/FK LOGO.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Frases of the Kingdom</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#versiculos">Versículos</a></li>
+        <li><a href="#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Carrusel -->
+  <section id="inicio">
+    <section id="descripcion">
+      <h2>Bienvenido a Frases of the Kingdom</h2>
+      <p>Aquí compartimos frases inspiradoras y versículos bíblicos para motivar tu vida diaria. Conéctate con la palabra de Dios a través de imágenes que puedes compartir y descargar.</p>
+    </section>
+
+    <div class="carousel">
+      <div class="carousel-slide">
+        <img src="imagenes/imag1.png" alt="Frase 1">
+        <button class="download-btn">Descargar Imagen</button>
+      </div>
+      <div class="carousel-slide">
+        <img src="imagenes/imag2.png" alt="Frase 2">
+        <button class="download-btn">Descargar Imagen</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Versículos -->
+  <section id="versiculos">
+    <h2>Versículos Bíblicos Ministrantes</h2>
+    <div class="versiculo">
+      <p>"Porque yo sé los planes que tengo para ustedes, planes de bienestar y no de calamidad, para darles un futuro y una esperanza." - Jeremías 29:11</p>
+    </div>
+    <div class="versiculo">
+      <p>"El amor nunca deja de ser." - 1 Corintios 13:8</p>
+    </div>
+  </section>
+
+
+
+  <!-- Formulario de contacto -->
+<section id="contacto">
+    <h2>Contáctanos</h2>
+    <form action="mailto:thekingdomfrases@gmail.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+      
+      <!-- Campo de comentario -->
+      <div class="form-group comentario">
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" required></textarea>
+      </div>
+  
+      <button type="submit" class="enviar-btn">Enviar</button>
+    </form>
+  </section>
+  
+  
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Frases of the Kingdom. Todos los derechos reservados.</p>
+    <p>Correo: <a href="mailto:thekingdomfrases@gmail.com">thekingdomfrases@gmail.com</a></p>
+    <p>Síguenos en Instagram: <a href="https://www.instagram.com/frasesofthekingdom" target="_blank">@frasesofthekingdom</a></p>
+  </footer>
+</body>
+</html>

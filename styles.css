@@ -1,0 +1,175 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: flex-start;
+    text-align: center; /* Centra el texto en la página */
+    width: 100%;
+}
+
+/* Bienvenida */
+.welcome-section {
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center; /* Centra el texto dentro del encabezado */
+}
+
+header h1 {
+    margin: 0;
+    color: #333;  /* Establece el color del texto dentro del encabezado */
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centra los elementos de navegación */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Descripción y contacto */
+#descripcion, #contacto {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+/* Carrusel de imágenes */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-slide {
+    flex: 1;
+    transition: transform 0.5s ease;
+    text-align: center;
+}
+
+.carousel-slide img {
+    width: 100%;  /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 400px;  /* Ajusta la altura fija (puedes cambiar el valor a lo que prefieras) */
+    object-fit: cover;  /* Asegura que la imagen se recorte para ajustarse al tamaño sin deformarse */
+    margin: 0 auto;  /* Centra la imagen */
+}
+
+/* Botón de descarga */
+.download-btn {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;  /* Asegura que el texto del pie de página sea blanco */
+    text-align: center;  /* Centra el contenido dentro del pie de página */
+    padding: 20px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .container p {
+    font-size: 1rem;
+    color: #fff;  /* Asegura que el texto dentro del pie de página sea blanco */
+}
+
+
+
+/* Formulario de contacto */
+#contacto {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    width: 100%; /* Asegura que el contenido ocupe todo el ancho */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px; /* Espaciado entre los campos */
+    
+    align-items: center; /* Centra todo el contenido en la página */
+}
+
+#contacto h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Asegura que el input ocupe todo el ancho */
+}
+
+/* Campo de comentario centrado */
+.comentario textarea {
+    width: 80%; /* Ajusta el tamaño del campo de comentario */
+    margin: 0 auto; /* Centra el campo de comentario */
+    height: 150px; /* Ajusta la altura del campo de texto */
+}
+
+/* Botón */
+.enviar-btn {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Hace que el botón ocupe todo el ancho */
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+
